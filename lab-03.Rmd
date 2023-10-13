@@ -23,7 +23,7 @@ knitr::include_graphics("img/Speaking-the-world.jpg")
 
 _Write your comments about image 1 below_
 
-
+Not respecting data with the 1,026 billion figure, should be million not billion so this is wrong. The size of the bars aren't proportional to the data so isn't respecting the people viewing it or the mathematics behind it.
 
 
 
@@ -35,7 +35,7 @@ knitr::include_graphics("img/rose-pop-density-total-area-bw.jpg")
 
 _Write your comments about image 2 below_
 
-
+This is disrespecting the data and the people as it is not an appropriate visualisation style making it unclear what its showing, not letting the data speak. It is visually boring which makes it unattractive for the viewer.
 
 
 ## Image 3
@@ -46,7 +46,7 @@ knitr::include_graphics("img/life-expectancy-rule-of-law.png")
 
 _Write your comments about image 3 below_
 
-
+Visualisation style makes it difficult for people to understand, no legend to describe the colours and their meaning. No axis values, not respecting the data.
 
 
 ## Image 4
@@ -57,8 +57,7 @@ knitr::include_graphics("img/global-income-dist.PNG")
 
 _Write your comments about image 4 below_
 
-
-
+The visualisation type is very messy/unclear. The y-axis is not appropriate and it makes reading the data difficult.
 
 
 # Exercises
