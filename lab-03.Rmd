@@ -1,9 +1,6 @@
 ---
 title: "Lab 03 - Take a sad plot and make it better"
-<<<<<<< HEAD
-=======
 author: "Ed, Cameron Fisher, Finlay Webb - Johnny's Boys"
->>>>>>> 13039e440b862db5cdeb67dc781ccfdf33db0237
 date: "`r Sys.Date()`"
 output: html_document
 ---
