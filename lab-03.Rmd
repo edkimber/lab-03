@@ -145,8 +145,13 @@ ggplot(data = staff_long,
 ## Exercise 6
 
 ```{r better-line-plot}
-# Write your code for Exercise 6 here
 
+ggplot(data = staff_long,
+       mapping = aes(x = year, 
+                     y = percent, 
+                     colour = faculty_type)) +
+  geom_line() +
+  labs(title = "The Percentage of Faculty Types by Year", subtitle = "From 1975 to 2011", x = "Year", y = "Percentage makeup")
 
 
 
@@ -156,9 +161,9 @@ ggplot(data = staff_long,
 
 _Write below your ideas for adapting the line plot_
 
-* Idea 1
-* Idea 2
-* Idea 3
+* Make the two lines bold to draw attention
+* Fill below (alpha)
+* Use facet(wrap)
 * ...
 
 
@@ -167,7 +172,12 @@ _Write below your ideas for adapting the line plot_
 ```{r implement-Ex7}
 # Write your code for Exercise 8 here
 
-
+ggplot(data = staff_long,
+       mapping = aes(x = year, 
+                     y = percent, 
+                     colour = faculty_type)) +
+  geom_line() +
+  labs(title = "The Percentage of Faculty Types by Year", subtitle = "From 1975 to 2011", x = "Year", y = "Percentage makeup") + facet_wrap(~ faculty_type, scale = "free", ncol = 3) + theme(text = element_text(size = 7))
 
 ```
 
